@@ -37,7 +37,7 @@ describe("Router", () => {
 
 		// AddPage
 		wrapper = mount(
-			<MemoryRouter initialEntries={["/add/12345"]}>
+			<MemoryRouter initialEntries={["/addPerson"]}>
 				<Router />
 			</MemoryRouter>
 		);
