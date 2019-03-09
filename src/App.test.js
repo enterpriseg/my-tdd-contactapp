@@ -8,4 +8,9 @@ describe("App", () => {
 		const wrapper = shallow(<App />);
 		expect(wrapper.find("div#main")).toHaveLength(1);
 	});
+
+	it("renders a Add Person button", () => {
+		const wrapper = shallow(<App />);
+		expect(wrapper.find("button#addPerson")).toHaveLength(1);
+	});
 });
